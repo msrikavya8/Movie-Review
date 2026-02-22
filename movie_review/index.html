@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎬 Movie Review Website</h1>
+
+        <form id="reviewForm">
+            <input type="text" id="movie" placeholder="Movie Name" required>
+
+            <select id="rating" required>
+                <option value="">Rating</option>
+                <option value="⭐">⭐</option>
+                <option value="⭐⭐">⭐⭐</option>
+                <option value="⭐⭐⭐">⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐">⭐⭐⭐⭐</option>
+                <option value="⭐⭐⭐⭐⭐">⭐⭐⭐⭐⭐</option>
+            </select>
+
+            <textarea id="review" placeholder="Write review..." required></textarea>
+
+            <button type="submit">Add Review</button>
+        </form>
+
+        <div id="reviews"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

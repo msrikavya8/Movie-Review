@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.container {
+    width: 400px;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff4757;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.review {
+    background: #333;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.delete {
+    background: red;
+    border: none;
+    color: white;
+    padding: 5px;
+    float: right;
+}
